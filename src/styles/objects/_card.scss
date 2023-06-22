@@ -1,0 +1,25 @@
+.o-title-card {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  background: linear-gradient(90deg, #00565b 0%, #249059 90.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.o-author-card {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+.o-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+  flex-wrap: wrap;
+}
+
